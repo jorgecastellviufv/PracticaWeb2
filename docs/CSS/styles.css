@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #1010cd;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1010cd;
+    ;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #4747e8;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #1010cd;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+        .photo-section {
+            text-align: center;
+            margin-bottom: 20px;
+            align-items: center;
+        }
+
+        .photo-section img {
+            max-width: 40%;
+            height: auto;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .photo-section p {
+            max-width: 80%;
+            margin: 10px auto;
+            text-align: justify;
+        }
+
+        .family-section {
+            text-align: center;
+        }
+
+        .family-section img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+
+        .family-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .family-section li {
+            margin-bottom: 10px;
+        }
+
+        
+       
+
+        
+       
+
+        .form-section {
+            background: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            text-align: center; /* Opcional: centra el contenido dentro del formulario */
+        }
+
+        .form-section h2 {
+            margin-bottom: 20px;
+        }
+
+        .form-section label {
+            display: block;
+            text-align: left;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        .form-section input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .form-section button {
+            width: 100%;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .form-section button:hover {
+            background-color: #0056b3;
+        }
